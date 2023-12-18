@@ -1,0 +1,20 @@
+{
+  "name": "datavis-server",
+  "version": "1.0.0",
+  "description": "server for datavis ui",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anish mv",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "google-auth-library": "^9.4.1",
+    "googleapis": "^129.0.0"
+  }
+}
